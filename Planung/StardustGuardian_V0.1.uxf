@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>110</x>
+      <y>80</y>
+      <w>720</w>
+      <h>650</h>
+    </coordinates>
+    <panel_attributes>StardustGuardian
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>0</x>
+      <y>190</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Spieler</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>190</x>
+      <y>160</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Charaktererstellung</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>210</x>
+      <y>100</y>
+      <w>410</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ca. 5 Attribute
+Diverse Presets der Attribute (Dieb, Schurke, Krieger, Magier...)
+Lebenspunkte
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>50</x>
+      <y>190</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>210</x>
+      <y>270</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Eine Iteration/Runde 
+spielen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>50</x>
+      <y>230</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;160.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>250</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>520</x>
+      <y>220</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Event aus Pool auslösen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>520</x>
+      <y>390</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Belohnung einsammeln</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>530</x>
+      <y>310</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Event bestreiten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>290</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>310</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>510</x>
+      <y>480</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Aufleveln</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>260</y>
+      <w>240</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Um ein Spiel zu gewinnen braucht 
+man eine gewisse Anazhl an 
+"Siegpunkten". Am Anfang einer 
+Iteration kann man sich für einen 
+"Weg"entscheiden. Dann muss man 
+das Event hinter der Entscheidung 
+überwinden. Abschließend erhält 
+man dafür X Siegpunkte
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>480</x>
+      <y>570</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Shoppen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>680</x>
+      <y>490</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Man braucht bestimmtes 
+Event fürs Leveln
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>310</y>
+      <w>210</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>320</y>
+      <w>210</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>220</x>
+      <y>590</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Den Endboss 
+herausfordern</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>50</x>
+      <y>260</y>
+      <w>190</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;170.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>860</x>
+      <y>640</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Multiplayer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>670</x>
+      <y>670</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Kämpfen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>670</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>20</x>
+      <y>280</y>
+      <w>670</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;120.0;410.0;650.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>180</y>
+      <w>510</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;320.0;20.0;490.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>870</x>
+      <y>610</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>optional
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>840</x>
+      <y>620</y>
+      <w>120</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>type=termination
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
